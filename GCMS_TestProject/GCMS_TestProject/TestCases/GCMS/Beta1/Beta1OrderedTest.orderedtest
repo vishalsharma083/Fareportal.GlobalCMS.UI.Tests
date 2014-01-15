@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="beta1orderedtest" storage="c:\users\s.g.yu7h\documents\visual studio 2010\projects\gcms_testproject\gcms_testproject\testcases\gcms\beta1\beta1orderedtest.orderedtest" id="8ee7eea7-73ae-4af2-b301-7fa33af14d6e" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Execution id="7aae5cc1-281c-4899-b73b-be3a3e458fac" />
+  <TestLinks>
+    <TestLink id="7cf005aa-82fd-e154-3905-bf272a709380" name="JustToSignInOnly" storage="..\..\..\bin\debug\gcms_testproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="d869fc3b-f150-549c-6e79-cd687c15578d" name="ContentSpecificUrl_InHTMLModule" storage="..\..\..\bin\debug\gcms_testproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="2339fb37-76d2-7deb-e0c7-3a46b9de23a8" name="ForHTML_Module" storage="..\..\..\bin\debug\gcms_testproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="43c24749-0d36-ad6a-4241-fedfc631cd08" name="ForRSSFeed" storage="..\..\..\bin\debug\gcms_testproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="817aeca9-03da-fbef-ab65-2806fa9d72b0" name="ForSqlModule" storage="..\..\..\bin\debug\gcms_testproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="0efccc1a-4c65-eb81-03ed-aa9eea4f718c" name="ForExcelUpload" storage="..\..\..\bin\debug\gcms_testproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

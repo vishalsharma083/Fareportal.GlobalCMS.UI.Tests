@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e0d1662b-92ff-403a-8cb3-bc46c92e1bac" name="s.g.yu7h@INAGFFPTEC161W 2014-01-13 13:57:28" runUser="CORP\s.g.yu7h" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1747497b-b63c-46c6-9bbd-9937f9080ad4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="s.g.yu7h_INAGFFPTEC161W 2014-01-13 13_57_28">
+      <DeploymentItem filename="C:\Users\s.g.yu7h\Desktop\net35\Selenium.WebDriverBackedSelenium.dll" />
+      <DeploymentItem filename="C:\Users\s.g.yu7h\Desktop\net35\WebDriver.Support.dll" />
+      <DeploymentItem filename="C:\Users\s.g.yu7h\Desktop\net35\WebDriver.dll" />
+      <DeploymentItem filename="C:\Users\s.g.yu7h\Desktop\net35\ThoughtWorks.Selenium.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-13T13:57:28.8429121+05:30" queuing="2014-01-13T13:57:32.1292407+05:30" start="2014-01-13T13:57:32.2182496+05:30" finish="2014-01-13T13:57:36.1116389+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="4" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="INAGFFPTEC161W" outcome="Warning" timestamp="2014-01-13T13:57:29.1009379+05:30">
+        <Text>Deployment is currently disabled. The deployment item 'Eclips\ForSqlModule.csv' on test 'GCMS_TestProject.TestCases.AutomatedTestsForBeta1.ForSqlModule' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ForSqlModule" storage="c:\users\s.g.yu7h\documents\visual studio 2010\projects\gcms_testproject\gcms_testproject\bin\debug\gcms_testproject.dll" id="817aeca9-03da-fbef-ab65-2806fa9d72b0">
+      <DeploymentItems>
+        <DeploymentItem filename="Eclips\ForSqlModule.csv" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/Users/s.g.yu7h/Documents/Visual Studio 2010/Projects/GCMS_TestProject/GCMS_TestProject/bin/Debug/GCMS_TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GCMS_TestProject.TestCases.AutomatedTestsForBeta1, GCMS_TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ForSqlModule" />
+      <DataSource connectionString="|DataDirectory|\ForSqlModule.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="ForSqlModule#csv" />
+    </UnitTest>
+    <UnitTest name="ContentSpecificUrl_InHTMLModule" storage="c:\users\s.g.yu7h\documents\visual studio 2010\projects\gcms_testproject\gcms_testproject\bin\debug\gcms_testproject.dll" id="d869fc3b-f150-549c-6e79-cd687c15578d">
+      <TestMethod codeBase="C:/Users/s.g.yu7h/Documents/Visual Studio 2010/Projects/GCMS_TestProject/GCMS_TestProject/bin/Debug/GCMS_TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GCMS_TestProject.TestCases.AutomatedTestsForBeta1, GCMS_TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ContentSpecificUrl_InHTMLModule" />
+    </UnitTest>
+    <OrderedTest name="Beta1OrderedTest" storage="c:\users\s.g.yu7h\documents\visual studio 2010\projects\gcms_testproject\gcms_testproject\testcases\gcms\beta1\beta1orderedtest.orderedtest" id="8ee7eea7-73ae-4af2-b301-7fa33af14d6e">
+      <Execution id="6f2f28d8-82e9-4d77-8cfe-9a89fad5b2b4" />
+      <TestLinks>
+        <TestLink id="7cf005aa-82fd-e154-3905-bf272a709380" name="JustToSignInOnly" storage="..\..\..\bin\debug\gcms_testproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="d869fc3b-f150-549c-6e79-cd687c15578d" name="ContentSpecificUrl_InHTMLModule" storage="..\..\..\bin\debug\gcms_testproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="2339fb37-76d2-7deb-e0c7-3a46b9de23a8" name="ForHTML_Module" storage="..\..\..\bin\debug\gcms_testproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="43c24749-0d36-ad6a-4241-fedfc631cd08" name="ForRSSFeed" storage="..\..\..\bin\debug\gcms_testproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="817aeca9-03da-fbef-ab65-2806fa9d72b0" name="ForSqlModule" storage="..\..\..\bin\debug\gcms_testproject.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </OrderedTest>
+    <UnitTest name="ForRSSFeed" storage="c:\users\s.g.yu7h\documents\visual studio 2010\projects\gcms_testproject\gcms_testproject\bin\debug\gcms_testproject.dll" id="43c24749-0d36-ad6a-4241-fedfc631cd08">
+      <DeploymentItems>
+        <DeploymentItem filename="Eclips\ForRSSFeed.csv" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/Users/s.g.yu7h/Documents/Visual Studio 2010/Projects/GCMS_TestProject/GCMS_TestProject/bin/Debug/GCMS_TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GCMS_TestProject.TestCases.AutomatedTestsForBeta1, GCMS_TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ForRSSFeed" />
+      <DataSource connectionString="|DataDirectory|\ForRSSFeed.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="ForRSSFeed#csv" />
+    </UnitTest>
+    <UnitTest name="JustToSignInOnly" storage="c:\users\s.g.yu7h\documents\visual studio 2010\projects\gcms_testproject\gcms_testproject\bin\debug\gcms_testproject.dll" id="7cf005aa-82fd-e154-3905-bf272a709380">
+      <DeploymentItems>
+        <DeploymentItem filename="Eclips\ForHTML_Module.csv" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/Users/s.g.yu7h/Documents/Visual Studio 2010/Projects/GCMS_TestProject/GCMS_TestProject/bin/Debug/GCMS_TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GCMS_TestProject.TestCases.AutomatedTestsForBeta1, GCMS_TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="JustToSignInOnly" />
+      <DataSource connectionString="|DataDirectory|\ForHTML_Module.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="ForHTML_Module#csv" />
+    </UnitTest>
+    <UnitTest name="ForHTML_Module" storage="c:\users\s.g.yu7h\documents\visual studio 2010\projects\gcms_testproject\gcms_testproject\bin\debug\gcms_testproject.dll" id="2339fb37-76d2-7deb-e0c7-3a46b9de23a8">
+      <DeploymentItems>
+        <DeploymentItem filename="Eclips\ForHTML_Module.csv" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:/Users/s.g.yu7h/Documents/Visual Studio 2010/Projects/GCMS_TestProject/GCMS_TestProject/bin/Debug/GCMS_TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GCMS_TestProject.TestCases.AutomatedTestsForBeta1, GCMS_TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ForHTML_Module" />
+      <DataSource connectionString="|DataDirectory|\ForHTML_Module.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="ForHTML_Module#csv" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8ee7eea7-73ae-4af2-b301-7fa33af14d6e" executionId="6f2f28d8-82e9-4d77-8cfe-9a89fad5b2b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TestEntries>
+        <TestEntry testId="7cf005aa-82fd-e154-3905-bf272a709380" executionId="bd986751-0842-4c40-bb24-c83964f12b37" parentExecutionId="6f2f28d8-82e9-4d77-8cfe-9a89fad5b2b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="d869fc3b-f150-549c-6e79-cd687c15578d" executionId="7aed9476-99bb-4755-91c2-03eb0af743ff" parentExecutionId="6f2f28d8-82e9-4d77-8cfe-9a89fad5b2b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="2339fb37-76d2-7deb-e0c7-3a46b9de23a8" executionId="f2f5988c-289d-4e90-b4f5-0869ca42e3bf" parentExecutionId="6f2f28d8-82e9-4d77-8cfe-9a89fad5b2b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="43c24749-0d36-ad6a-4241-fedfc631cd08" executionId="261bcebd-b0f4-4791-8d03-0375c35bf1ba" parentExecutionId="6f2f28d8-82e9-4d77-8cfe-9a89fad5b2b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="817aeca9-03da-fbef-ab65-2806fa9d72b0" executionId="431e9016-1705-49e5-9c20-bc87ee408b9a" parentExecutionId="6f2f28d8-82e9-4d77-8cfe-9a89fad5b2b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+      </TestEntries>
+    </TestEntry>
+  </TestEntries>
+  <Results>
+    <TestResultAggregation executionId="6f2f28d8-82e9-4d77-8cfe-9a89fad5b2b4" testId="8ee7eea7-73ae-4af2-b301-7fa33af14d6e" testName="Beta1OrderedTest" computerName="INAGFFPTEC161W" duration="00:00:02.7053913" startTime="2014-01-13T13:57:32.9893267+05:30" endTime="2014-01-13T13:57:35.9856263+05:30" testType="ec4800e8-40e5-4ab3-8510-b8bf29b1904d" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f2f28d8-82e9-4d77-8cfe-9a89fad5b2b4">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="4" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="bd986751-0842-4c40-bb24-c83964f12b37" parentExecutionId="6f2f28d8-82e9-4d77-8cfe-9a89fad5b2b4" testId="7cf005aa-82fd-e154-3905-bf272a709380" testName="JustToSignInOnly" computerName="INAGFFPTEC161W" startTime="2014-01-13T13:57:33.2783556+05:30" endTime="2014-01-13T13:57:35.9836261+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd986751-0842-4c40-bb24-c83964f12b37" resultType="DataDrivenTest">
+          <Output>
+            <ErrorInfo>
+              <Message>The unit test adapter failed to connect to the data source or to read the data. For more information on troubleshooting this error, see "Troubleshooting Data-Driven Unit Tests" (http://go.microsoft.com/fwlink/?LinkId=62412) in the MSDN Library.
+Error details: The Microsoft Jet database engine could not find the object 'ForHTML_Module.csv'.  Make sure the object exists and that you spell its name and the path name correctly.</Message>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <TestResult executionId="7aed9476-99bb-4755-91c2-03eb0af743ff" parentExecutionId="6f2f28d8-82e9-4d77-8cfe-9a89fad5b2b4" testId="d869fc3b-f150-549c-6e79-cd687c15578d" testName="ContentSpecificUrl_InHTMLModule" computerName="INAGFFPTEC161W" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7aed9476-99bb-4755-91c2-03eb0af743ff" />
+        <TestResult executionId="f2f5988c-289d-4e90-b4f5-0869ca42e3bf" parentExecutionId="6f2f28d8-82e9-4d77-8cfe-9a89fad5b2b4" testId="2339fb37-76d2-7deb-e0c7-3a46b9de23a8" testName="ForHTML_Module" computerName="INAGFFPTEC161W" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2f5988c-289d-4e90-b4f5-0869ca42e3bf" />
+        <TestResult executionId="261bcebd-b0f4-4791-8d03-0375c35bf1ba" parentExecutionId="6f2f28d8-82e9-4d77-8cfe-9a89fad5b2b4" testId="43c24749-0d36-ad6a-4241-fedfc631cd08" testName="ForRSSFeed" computerName="INAGFFPTEC161W" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="261bcebd-b0f4-4791-8d03-0375c35bf1ba" />
+        <TestResult executionId="431e9016-1705-49e5-9c20-bc87ee408b9a" parentExecutionId="6f2f28d8-82e9-4d77-8cfe-9a89fad5b2b4" testId="817aeca9-03da-fbef-ab65-2806fa9d72b0" testName="ForSqlModule" computerName="INAGFFPTEC161W" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="431e9016-1705-49e5-9c20-bc87ee408b9a" />
+      </InnerResults>
+    </TestResultAggregation>
+  </Results>
+</TestRun>
